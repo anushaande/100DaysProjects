@@ -2,7 +2,8 @@ import random
 
 NUM = random.randint(1,100)
 game_on = True
-
+print("Welcome to the Number Guessing Game.")
+print("I am thinking of a number between 1 and 100.")
 level = input("Choose a difficulty. Type 'easy' or 'hard': ")
 if level == 'easy':
     attempts = 10
